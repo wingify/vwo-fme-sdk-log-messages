@@ -1,0 +1,21 @@
+{
+  "name": "vwo-fme-sdk-log-messages",
+  "version": "0.0.1",
+  "description": "VWO FME SDK Log Messages at one place",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wingify/vwo-fme-sdk-log-messages"
+  },
+  "keywords": [
+    "VWO",
+    "FME",
+    "Logging",
+    "SDK"
+  ],
+  "author": "dev@wingify.com",
+  "license": "Apache-2.0"
+}
