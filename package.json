@@ -1,6 +1,6 @@
 {
   "name": "vwo-fme-sdk-log-messages",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "VWO FME SDK Log Messages at one place",
   "main": "index.js",
   "scripts": {
