@@ -1,4 +1,5 @@
 {
+  "API_CALLED": "API - {apiName} called",
   "SERVICE_INITIALIZED": "VWO {service} initialized while creating an instance of SDK",
 
   "EXPERIMENTS_EVALUATION_WHEN_ROLLOUT_PASSED": "Rollout rule got passed for user {userId}. Hence, evaluating experiments",
