@@ -24,5 +24,7 @@
   "GATEWAY_URL_ERROR": "Please provide a valid URL for VWO Gateway Service while initializing the SDK",
 
   "NETWORK_CALL_FAILED": "Error occurred while sending {method} request. Error:{err}",
-  "SETTINGS_FETCH_FAILED": "Failed to fetch settings and hence VWO client instance couldn't be updated when API: {apiName} got called having isViaWebhook param as {isViaWebhook}. Error: {err}"
+  "SETTINGS_FETCH_FAILED": "Failed to fetch settings and hence VWO client instance couldn't be updated when API: {apiName} got called having isViaWebhook param as {isViaWebhook}. Error: {err}",
+  "SET_USER_ALIAS": "Error in setting user alias for user ID:{userId} and alias ID:{aliasUserId}. Error:{err}",
+  "GET_USER_ALIAS": "Error in getting user alias for user ID:{userId}. Error:{err}"
 }
