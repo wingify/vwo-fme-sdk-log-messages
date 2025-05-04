@@ -31,7 +31,7 @@
   "SETTINGS_UPDATED": "Settings fetched and updated successfully on the current VWO client instance when API: {apiName} got called having isViaWebhook param as {isViaWebhook}",
   "NETWORK_CALL_SUCCESS": "Impression for {event} - {endPoint} was successfully received by VWO having Account ID:{accountId}, User ID:{userId} and UUID: {uuid}",
 
-  "EVENT_BATCH_DEFAULTS": "{parameter} not passed in SDK configuration, setting it default to {defaultValue}",
+  "EVENT_BATCH_DEFAULTS": "{parameter} in SDK configuration is missing or invalid (should be greater than {minLimit}). Using default value: {defaultValue}",
   "EVENT_QUEUE": "Event with payload:{event} pushed to the {queueType} queue",
   "EVENT_BATCH_After_FLUSHING": "Event queue having {length} events has been flushed {manually}",
   "IMPRESSION_BATCH_SUCCESS": "Impression event - {endPoint} was successfully received by VWO having Account ID:{accountId}",
