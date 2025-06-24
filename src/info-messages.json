@@ -6,10 +6,10 @@
   "POLLING_NO_CHANGE_IN_SETTINGS": "No change in settings with the last settings fetched. Hence, not instantiating new VWO client",
 
   "SETTINGS_FETCH_SUCCESS": "Settings fetched successfully",
-  “SETTINGS_FETCH_FROM_CACHE”: “Settings fetched from cache”,
-  “SETTINGS_BACKGROUND_UPDATE”: “Settings updated in background”,
-  “SETTINGS_CACHE_MISS”: “Settings not found in cache, proceeding to fetch from server”,
-
+  "SETTINGS_FETCH_FROM_CACHE": "Settings retrieved from cache",
+  "SETTINGS_BACKGROUND_UPDATE": "Settings asynchronously fetched and cache updated",
+  "SETTINGS_CACHE_MISS": "Settings not in cache; fetching from server"
+  
   "CLIENT_INITIALIZED": "VWO Client initialized",
 
   "STORED_VARIATION_FOUND": "Variation {variationKey} found in storage for the user {userId} for the {experimentType} experiment:{experimentKey}",
