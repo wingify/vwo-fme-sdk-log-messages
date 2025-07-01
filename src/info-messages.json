@@ -8,7 +8,7 @@
   "SETTINGS_FETCH_SUCCESS": "Settings fetched successfully",
   "SETTINGS_FETCH_FROM_CACHE": "Settings retrieved from cache",
   "SETTINGS_BACKGROUND_UPDATE": "Settings asynchronously fetched and cache updated",
-  "SETTINGS_CACHE_MISS": "Settings not in cache; fetching from server"
+  "SETTINGS_CACHE_MISS": "Settings not in cache; fetching from server",
   
   "CLIENT_INITIALIZED": "VWO Client initialized",
 
