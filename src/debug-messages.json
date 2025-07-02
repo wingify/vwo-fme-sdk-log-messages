@@ -14,5 +14,6 @@
   "CONFIG_BATCH_EVENT_LIMIT_EXCEEDED": "Impression event - {endPoint} failed due to exceeding payload size. Parameter eventsPerRequest in batchEvents config in launch API has value:{eventsPerRequest} for account ID:{accountId}. Please read the official documentation for knowing the size limits",
   "EVENT_BATCH_BEFORE_FLUSHING": "Flushing event queue {manually} having {length} events for Account ID:{accountId}. {timer}",
   "EVENT_BATCH_FLUSH": "Manually flushing batch events for Account ID:{accountId} having {queueLength} events",
-  "BATCH_QUEUE_EMPTY": "Batch queue is empty. Nothing to flush."
+  "BATCH_QUEUE_EMPTY": "Batch queue is empty. Nothing to flush.",
+  "USING_POLL_INTERVAL_FROM_SETTINGS": "key: pollInterval not found or invalid. Using pollInterval from {source} {pollInterval}."
 }
