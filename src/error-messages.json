@@ -29,5 +29,6 @@
   "NETWORK_CALL_RETRY_FAILED": "Max retries reached. Request failed for {endPoint}, Error: {err}",
 
   "CONFIG_PARAMETER_INVALID": "{parameter} paased in {api} API is not correct. It should be of type:{type}}",
-  "BATCH_QUEUE_EMPTY": "No batch queue present for account:{accountId} when calling flushEvents API. Check batchEvents config in launch API"
+  "BATCH_QUEUE_EMPTY": "No batch queue present for account:{accountId} when calling flushEvents API. Check batchEvents config in launch API",
+  "RETRY_CONFIG_INVALID": "Retry config is invalid. Please check the VWO developer documentation. Current retry config: {retryConfig}"
 }
