@@ -32,5 +32,6 @@
   "BATCH_QUEUE_EMPTY": "No batch queue present for account:{accountId} when calling flushEvents API. Check batchEvents config in launch API",
   "RETRY_CONFIG_INVALID": "Retry config is invalid. Please check the VWO developer documentation. Current retry config: {retryConfig}",
   "SDK_INIT_EVENT_FAILED": "Error occurred while sending SDK init event. Error:{err}",
-  "INVALID_NETWORK_RESPONSE_DATA": "Received invalid or empty response data from the network request"
+  "INVALID_NETWORK_RESPONSE_DATA": "Received invalid or empty response data from the network request",
+  "ALIAS_NOT_ENABLED" : "Aliasing is not enabled. Set isAliasingEnabled in init to enable aliasing"
 }
