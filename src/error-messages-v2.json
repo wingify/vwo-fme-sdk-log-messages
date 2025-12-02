@@ -50,5 +50,6 @@
 
   "INVALID_BATCH_EVENTS_CONFIG": "Invalid batch events config. Should be an object - eventsPerRequest and requestTimeInterval should be of type:number and > 0",
 
-  "BATCHING_NOT_ENABLED": "Batching is not enabled. Pass batchEventData in the SDK configuration while invoking init API."
+  "BATCHING_NOT_ENABLED": "Batching is not enabled. Pass batchEventData in the SDK configuration while invoking init API.",
+  "ERROR_INITIALIZING_FETCH": "Unable to initialize the fetch API. Details: {error}"
 }
