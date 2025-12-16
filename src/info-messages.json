@@ -15,6 +15,7 @@
   "SETTINGS_RETRIEVED_FROM_STORAGE": "Valid settings successfully retrieved from storage.",
   "SETTINGS_SUCCESSFULLY_STORED": "Settings have been successfully stored in storage.",
   "SETTINGS_UPDATED_WITH_FRESH_DATA": "Settings have been updated with the latest data fetched from the server.",
+  "SETTINGS_USING_CACHED_SETTINGS": "Serving settings from cache because alwaysUseCachedSettings is enabled.",
   
   "CLIENT_INITIALIZED": "VWO Client initialized",
 
