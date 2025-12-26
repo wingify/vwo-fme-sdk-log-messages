@@ -26,6 +26,9 @@
   "ERROR_READING_DATA_FROM_BROWSER_STORAGE": "Error while reading from browser storage. Error: {err}",
   "ERROR_STORING_DATA_IN_BROWSER_STORAGE": "Error while writing to browserstorage. Error: {err}",
   "ERROR_DECODING_SDK_KEY_FROM_STORAGE": "Failed to decode sdkKey from browser storage. Error: {err}",
+  "ERROR_STORING_SETTINGS_IN_STORAGE": "Error while storing settings in storage. Error: {err}",
+  "ERROR_READING_SETTINGS_FROM_STORAGE": "Error while reading settings from storage. Error: {err}",
+  "ERROR_STORING_FRESH_SETTINGS_IN_STORAGE": "Error while storing fresh settings in storage. Error: {err}",
 
   "INVALID_GATEWAY_URL": "Invalid URL for VWO Gateway Service while initializing the SDK",
 
