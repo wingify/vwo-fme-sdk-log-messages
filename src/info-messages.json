@@ -10,13 +10,13 @@
   "SETTINGS_BACKGROUND_UPDATE": "Settings asynchronously fetched and cache updated",
   "SETTINGS_CACHE_MISS": "Settings not in cache; fetching from server",
   "SETTINGS_PASSED_IN_INIT_VALID": "Settings passed in init are valid",
-  "SETTINGS_CACHE_MISS_KEY_ACCOUNT_ID_MISMATCH": "Cached settings do not match the provided sdkKey or accountId. Fetching fresh settings from the server.",
-  "SETTINGS_EXPIRED": "Cached settings have expired. Initiating fetch for updated settings from server.",
-  "SETTINGS_RETRIEVED_FROM_STORAGE": "Valid settings successfully retrieved from storage.",
-  "SETTINGS_SUCCESSFULLY_STORED": "Settings have been successfully stored in storage.",
-  "SETTINGS_UPDATED_WITH_FRESH_DATA": "Settings have been updated with the latest data fetched from the server.",
-  "SETTINGS_USING_CACHED_SETTINGS": "Serving settings from cache because alwaysUseCachedSettings is enabled.",
-  
+  "SETTINGS_CACHE_MISS_KEY_ACCOUNT_ID_MISMATCH": "Cached settings not matches with the provided sdk-key/account-id. Fetching latest settings from the server",
+  "SETTINGS_EXPIRED": "Cached settings expired. Fetching latest settings from server",
+  "SETTINGS_RETRIEVED_FROM_STORAGE": "Valid settings retrieved from storage",
+  "SETTINGS_SUCCESSFULLY_STORED": "Settings successfully stored in storage",
+  "SETTINGS_UPDATED_WITH_FRESH_DATA": "Settings updated with latest settings fetched from the server",
+  "SETTINGS_USING_CACHED_SETTINGS": "Serving settings from cache because alwaysUseCachedSettings is enabled in the init options",
+
   "CLIENT_INITIALIZED": "VWO Client initialized",
 
   "STORED_VARIATION_FOUND": "Variation {variationKey} found in storage for the user {userId} for the {experimentType} experiment:{experimentKey}",

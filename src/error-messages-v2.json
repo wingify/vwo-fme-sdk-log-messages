@@ -8,7 +8,7 @@
   "ERROR_FETCHING_SETTINGS": "Settings could not be fetched. Error:{err}",
   "ERROR_FETCHING_SETTINGS_WITH_POLLING": "Settings could not be fetched with polling. Error:{err}",
   "UPDATING_CLIENT_INSTANCE_FAILED_WHEN_WEBHOOK_TRIGGERED": "Failed to fetch settings. VWO client instance couldn't be updated. API:{apiName} called having isViaWebhook:{isViaWebhook}. Error: {err}",
-  
+
 
   "INVALID_SETTINGS_SCHEMA": "Settings are not valid. Failed schema validation",
 
@@ -23,12 +23,12 @@
   "ERROR_READING_STORED_DATA_IN_STORAGE": "Error reading data from storage. Error:{err}",
   "ERROR_STORING_DATA_IN_STORAGE": "Key:{featureKey} is not valid. Unable to store data into storage",
 
-  "ERROR_READING_DATA_FROM_BROWSER_STORAGE": "Error while reading from browser storage. Error: {err}",
+  "ERROR_READING_DATA_FROM_BROWSER_STORAGE": "Failed to read data from browser storage. Error: {err}",
   "ERROR_STORING_DATA_IN_BROWSER_STORAGE": "Error while writing to browserstorage. Error: {err}",
   "ERROR_DECODING_SDK_KEY_FROM_STORAGE": "Failed to decode sdkKey from browser storage. Error: {err}",
-  "ERROR_STORING_SETTINGS_IN_STORAGE": "Error while storing settings in storage. Error: {err}",
-  "ERROR_READING_SETTINGS_FROM_STORAGE": "Error while reading settings from storage. Error: {err}",
-  "ERROR_STORING_FRESH_SETTINGS_IN_STORAGE": "Error while storing fresh settings in storage. Error: {err}",
+  "ERROR_STORING_SETTINGS_IN_STORAGE": "Failed to store settings in storage. Error: {err}",
+  "ERROR_READING_SETTINGS_FROM_STORAGE": "Failed to read settings from storage. Error: {err}",
+  "ERROR_STORING_FRESH_SETTINGS_IN_STORAGE": "Failed to store latest settings in storage. Error: {err}",
 
   "INVALID_GATEWAY_URL": "Invalid URL for VWO Gateway Service while initializing the SDK",
 
@@ -38,9 +38,9 @@
   "NETWORK_CALL_FAILURE_AFTER_MAX_RETRIES": "Network call for {extraData} failed after {attempts} retry attempt(s). Got Error: {err}",
 
   "INVALID_RETRY_CONFIG": "Retry config is invalid. Should be of type:object",
-  
+
   "SDK_INIT_EVENT_FAILED": "Error occurred while sending SDK init event. Error:{err}",
-  
+
   "INVALID_NETWORK_RESPONSE_DATA": "Received invalid or empty response data from the network request",
   "ALIAS_CALLED_BUT_NOT_PASSED" : "Aliasing is not enabled. Set isAliasingEnabled:true in init to enable",
 
@@ -49,10 +49,10 @@
   "INVALID_IP_ADDRESS_IN_CONTEXT_FOR_PRE_SEGMENTATION": "ipAddress is required in context to evaluate location pre-segmentation",
   "INVALID_USER_AGENT_IN_CONTEXT_FOR_PRE_SEGMENTATION": "userAgent is required in context to evaluate user-agent pre-segmentation",
   "INVALID_ATTRIBUTE_LIST_FORMAT": "Invalid inList operand format",
-  "ERROR_FETCHING_DATA_FROM_GATEWAY": "Error while fetching data from gateway. Error: {err}",
+  "ERROR_FETCHING_DATA_FROM_GATEWAY": "Failed to fetch data from gateway. Error: {err}",
 
   "INVALID_BATCH_EVENTS_CONFIG": "Invalid batch events config. Should be an object - eventsPerRequest and requestTimeInterval should be of type:number and > 0",
 
-  "BATCHING_NOT_ENABLED": "Batching is not enabled. Pass batchEventData in the SDK configuration while invoking init API.",
-  "ERROR_INITIALIZING_FETCH": "Unable to initialize the fetch API. Details: {error}"
+  "BATCHING_NOT_ENABLED": "Batching is not enabled. Pass batchEventData in the SDK configuration while invoking init API",
+  "ERROR_INITIALIZING_FETCH": "Failed to initialize the fetch API. Details: {error}"
 }

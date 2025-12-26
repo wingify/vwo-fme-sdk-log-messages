@@ -1,14 +1,10 @@
-## VWO FME SDK Log messages
+## VWO Feature Experimentation SDK Log Messages
 
-VWO Feature Management and Experimentation - SDK Log Messages at one place
+VWO Feature Experimentation - SDK Log Messages at one place
 
 ## Authors
 
 - [Varun Malhotra](https://github.com/softvar)([@s0ftvar](https://twitter.com/s0ftvar))
-
-## Changelog
-
-Refer [CHANGELOG.md](https://github.com/wingify/vwo-fme-sdk-log-messages/blob/master/CHANGELOG.md)
 
 ## Contributing
 
@@ -23,4 +19,4 @@ Please go through our [contributing guidelines](https://github.com/wingify/vwo-f
 
 [Apache License, Version 2.0](https://github.com/wingify/vwo-fme-sdk-log-messages/blob/master/LICENSE)
 
-Copyright 2024 Wingify Software Pvt. Ltd.
+Copyright 2024-2026 Wingify Software Pvt. Ltd.
