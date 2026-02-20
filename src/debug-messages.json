@@ -17,5 +17,10 @@
   "BATCH_QUEUE_EMPTY": "Batch queue is empty, nothing to flush",
   "USING_POLL_INTERVAL_FROM_SETTINGS": "key: pollInterval not found or invalid. Using pollInterval from {source} {pollInterval}",
   "USING_API_WITH_PROCESS": "API: {api} is being used with process: {process}",
-  "WEB_UUID_FOUND": "VWO Web Testing identified UUID {uuid} as the Context ID for API {apiName}"
+  "WEB_UUID_FOUND": "VWO Web Testing identified UUID {uuid} as the Context ID for API {apiName}",
+  
+  "HOLDOUT_SEGMENTATION_FAIL": "User: {userId} did not qualify segmentation for Holdout: {holdoutGroupName}",
+  "HOLDOUT_SHOULD_NOT_EXCLUDE_USER": "User {userId} is NOT part of HOLDOUT named {holdoutGroupName} for feature {featureId}.",
+  "PART_OF_HOLDOUT_IN_MEG": "MEG: User id {userId} is part of holdout: {holdoutId} for feature: {featureKey}.",
+  "HOLDOUT_SKIP_EVALUATION": "SKIP holdout reevaluation for holdout id : {holdoutName} because {reason}"
 }
