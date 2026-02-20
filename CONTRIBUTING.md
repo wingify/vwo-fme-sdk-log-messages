@@ -1,4 +1,4 @@
-## Contributing to VWO FME SDK Log Messages
+## Contributing to VWO Feature Experimentation SDK Log Messages
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 

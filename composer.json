@@ -11,5 +11,5 @@
         "vwo\\": [ "src/" ]
     }
   },
-  "description": "VWO FME PHP SDK Log messages"
+  "description": "VWO Feature Experimentation PHP SDK Log Messages"
 }
