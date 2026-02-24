@@ -22,5 +22,5 @@
   "HOLDOUT_SEGMENTATION_FAIL": "User: {userId} did not qualify segmentation for Holdout: {holdoutGroupName}",
   "HOLDOUT_SHOULD_NOT_EXCLUDE_USER": "User {userId} is NOT part of HOLDOUT named {holdoutGroupName} for feature {featureId}.",
   "PART_OF_HOLDOUT_IN_MEG": "MEG: User id {userId} is part of holdout: {holdoutId} for feature: {featureKey}.",
-  "HOLDOUT_SKIP_EVALUATION": "SKIP holdout reevaluation for holdout id : {holdoutName} because {reason}"
+  "HOLDOUT_SKIP_EVALUATION": "SKIP holdout reevaluation for holdout ID: {holdoutId} because {reason}"
 }
