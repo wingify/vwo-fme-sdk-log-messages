@@ -22,7 +22,7 @@
   "STORED_VARIATION_FOUND": "Variation {variationKey} found in storage for the user {userId} for the {experimentType} experiment:{experimentKey}",
 
   "USER_PART_OF_CAMPAIGN": "User ID:{userId} is {notPart} part of experiment:{campaignKey}",
-  "SEGMENTATION_SKIP": "For userId:{userId} of experiment:{campaignKey}, segments was missing. Hence, skipping segmentation",
+  "SEGMENTATION_SKIP": "For userId:{userId} of experiment:{campaignKey}, segments were missing. Hence, skipping segmentation",
   "SEGMENTATION_STATUS": "Segmentation {status} for userId:{userId} of experiment:{campaignKey}",
 
   "USER_CAMPAIGN_BUCKET_INFO": "User ID:{userId} for experiment:{campaignKey} {status}",
@@ -45,16 +45,16 @@
   "EVENT_QUEUE": "Event with payload:{event} pushed to the {queueType} queue",
   "EVENT_BATCH_After_FLUSHING": "Event queue having {length} events has been flushed {manually}",
   "IMPRESSION_BATCH_SUCCESS": "Impression event - {endPoint} was successfully received by VWO having Account ID:{accountId}",
-  "IMPRESSION_BATCH_FAILED": "Batch events couldn\"t be received by VWO. Calling Flush Callback with error and data",
+  "IMPRESSION_BATCH_FAILED": "Batch events could not be received by VWO. Calling Flush Callback with error and data",
   "EVENT_BATCH_MAX_LIMIT": "{parameter} passed in SDK configuration is greater than the maximum limit of {maxLimit}. Setting it to the maximum limit",
   "GATEWAY_AND_BATCH_EVENTS_CONFIG_MISMATCH": "Batch Events config passed in SDK configuration will not work as the gatewayService is already configured. Please check the documentation for more details",
   "PROXY_URL_SET": "Proxy URL is set and will be used for all network requests",
   "ALIAS_ENABLED": "Aliasing enabled, using {userId} as userId",
   "NETWORK_CALL_SUCCESS_WITH_RETRIES": "Network call for {extraData} succeeded after {attempts} retry attempt(s). Previous attempts failed with error: {err}",
-  "ERROR_READING_DATA_FROM_BROWSER_STORAGE": "Error while reading from storage. Error: {err}",
-  "STORED_HOLDOUT_DECISION_FOUND": "User id: {userId} already part of holdout id: {holdoutId} for feature key: {featureKey}.",
-  "HOLDOUT_SHOULD_EXCLUDE_USER": "User {userId} ({bucketValue}%) is in HOLDOUT named: {holdoutGroupName} with targeted traffic percent: {percentTraffic}% for feature with id: {featureId}.",
-  "USER_IN_HOLDOUT_GROUP": "User {userId} is in holdout group {holdoutGroupName} for feature {featureKey} - feature excluded",
+  "ERROR_READING_DATA_FROM_BROWSER_STORAGE": "Error while reading from browser storage. Error: {err}",
+  "STORED_HOLDOUT_DECISION_FOUND": "User: {userId} already part of holdout with ID:{holdoutId} for feature: {featureKey}",
+  "HOLDOUT_SHOULD_EXCLUDE_USER": "User: {userId} ({bucketValue}%) is in holdout: {holdoutGroupName} with targeted traffic percent: {percentTraffic}% for feature ID: {featureId}",
+  "USER_IN_HOLDOUT_GROUP": "User: {userId} is in holdout group: {holdoutGroupName} for feature {featureKey}. Feature not evaluated",
   "USER_NOT_EXCLUDED_DUE_TO_HOLDOUT": "User ID:{userId} is not excluded from feature:{featureKey} due to any holdout groups",
-  "HOLDOUT_SEGMENTATION_SKIP": "No segments found for holdout with id: {holdoutId} for user ID:{userId}; Hence skipping segmentation."
+  "HOLDOUT_SEGMENTATION_SKIP": "No segments found for holdout: {holdoutId} and user ID: {userId}. Hence skipping segmentation"
 }
