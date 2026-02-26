@@ -54,7 +54,7 @@
   "INVALID_BATCH_EVENTS_CONFIG": "Invalid batch events config. Should be an object - eventsPerRequest and requestTimeInterval should be of type:number and > 0",
 
   "BATCHING_NOT_ENABLED": "Batching is not enabled. Pass batchEventData in the SDK configuration while invoking init API",
-  "ERROR_INITIALIZING_FETCH": "Failed to initialize the fetch API. Details: {error}",
-  "INVALID_NETWORK_TRANSPORT_MODE": "Invalid network transport mode. Should be one of the following: {validModes}. Got: {networkTransportMode} using default mode: {defaultMode}",
-  "SEND_BEACON_ERROR": "Failed to send beacon request. Error: {err}"
+  "ERROR_INITIALIZING_FETCH": "Failed to initialize the fetch API. Error: {error}",
+  "INVALID_NETWORK_TRANSPORT_MODE": "Invalid network transport mode. Expected one of: {validModes}. Received: {networkTransportMode}. Falling back to default mode: {defaultMode}",
+  "SEND_BEACON_ERROR": "Failed to send sendBeacon request to VWO. Error: {err}"
 }
