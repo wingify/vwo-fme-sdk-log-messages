@@ -52,9 +52,9 @@
   "ALIAS_ENABLED": "Aliasing enabled, using {userId} as userId",
   "NETWORK_CALL_SUCCESS_WITH_RETRIES": "Network call for {extraData} succeeded after {attempts} retry attempt(s). Previous attempts failed with error: {err}",
   "ERROR_READING_DATA_FROM_BROWSER_STORAGE": "Error while reading from storage. Error: {err}",
-  "STORED_HOLDOUT_DECISION_FOUND": "User id: {userId} already part of holdout id: {holdoutId} for feature key: {featureKey}.",
-  "HOLDOUT_SHOULD_EXCLUDE_USER": "User {userId} ({bucketValue}%) is in HOLDOUT named: {holdoutGroupName} with targeted traffic percent: {percentTraffic}% for feature with id: {featureId}.",
-  "USER_IN_HOLDOUT_GROUP": "User {userId} is in holdout group {holdoutGroupName} for feature {featureKey} - feature excluded",
-  "USER_NOT_EXCLUDED_DUE_TO_HOLDOUT": "User ID:{userId} is not excluded from feature:{featureKey} due to any holdout groups",
-  "HOLDOUT_SEGMENTATION_SKIP": "No segments found for holdout with id: {holdoutId} for user ID:{userId}; Hence skipping segmentation."
+  "STORED_HOLDOUT_DECISION_FOUND": "User id: {userId} already part of Holdout: {holdoutGroupName} for feature: {featureKey}",
+  "HOLDOUT_SHOULD_EXCLUDE_USER": "User ID: {userId} ({bucketValue}%) is in Holdout: {holdoutGroupName} with targeted traffic percent: {percentTraffic}% for feature {featureKey}",
+  "USER_IN_HOLDOUT_GROUP": "User ID: {userId} is in Holdout: {holdoutGroupName} for feature {featureKey} - user excluded from feature evaluation",
+  "USER_NOT_EXCLUDED_DUE_TO_HOLDOUT": "User ID: {userId} is not excluded from feature: {featureKey} due to any Holdout groups",
+  "HOLDOUT_SEGMENTATION_SKIP": "No segments found for Holdout: {holdoutGroupName} for user ID:{userId}; Hence skipping segmentation."
 }
