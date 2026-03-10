@@ -56,5 +56,8 @@
   "HOLDOUT_SHOULD_EXCLUDE_USER": "User: {userId} ({bucketValue}%) is in holdout: {holdoutGroupName} with targeted traffic percent: {percentTraffic}% for feature ID: {featureId}",
   "USER_IN_HOLDOUT_GROUP": "User: {userId} is in holdout group: {holdoutGroupName} for feature {featureKey}. Feature not evaluated",
   "USER_NOT_EXCLUDED_DUE_TO_HOLDOUT": "User ID:{userId} is not excluded from feature:{featureKey} due to any holdout groups",
-  "HOLDOUT_SEGMENTATION_SKIP": "No segments found for holdout: {holdoutId} and user ID: {userId}. Hence skipping segmentation"
+  "HOLDOUT_SEGMENTATION_SKIP": "No segments found for holdout: {holdoutId} and user ID: {userId}. Hence skipping segmentation",
+  "SHUTDOWN_ALREADY_COMPLETED": "Shutdown already completed. No action taken",
+  "SHUTDOWN_COMPLETED_WITH_FLUSH": "Shutdown complete: All events flushed, timers removed, and polling stopped",
+  "SHUTDOWN_COMPLETED_WITHOUT_FLUSH": "Shutdown complete: Polling stopped (no events to flush)"
 }
