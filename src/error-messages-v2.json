@@ -50,11 +50,11 @@
   "INVALID_USER_AGENT_IN_CONTEXT_FOR_PRE_SEGMENTATION": "userAgent is required in context to evaluate user-agent pre-segmentation",
   "INVALID_ATTRIBUTE_LIST_FORMAT": "Invalid inList operand format",
 
-  "INVALID_WEB_TESTING_CAMPAIGN_VARIATION_OPERAND_EMPTY": "Web Testing pre-segmentation: campaignVariation must be a non-empty string. Expected: \"C\" (e.g. 122), \"C_V\" (122_2), \"C_!V\" (122_!1), or \"!C\" (!122).",
-  "INVALID_WEB_TESTING_CAMPAIGN_VARIATION_OPERAND_FORMAT": "Web Testing pre-segmentation: unrecognized campaignVariation \"{encoded}\". Expected: \"C\", \"C_V\", \"C_!V\", or \"!C\"; use an underscore before ! (122_!1), not a colon.",
-  "INVALID_WEB_TESTING_CAMPAIGNS_JSON": "Web Testing pre-segmentation: platformVariables.webTestingCampaigns must be valid JSON parsing to an object (campaign id → variation id), not an array or primitive.",
+  "INVALID_WEB_TESTING_CAMPAIGN_VARIATION_OPERAND_EMPTY": "Web Testing pre-segmentation: campaignVariation must be a non-empty string after trimming whitespace. Expected: \"C\" (e.g. 122), \"C_V\" (122_2), \"C_!V\" (122_!1), or \"!C\" (!122).",
+  "INVALID_WEB_TESTING_CAMPAIGN_VARIATION_OPERAND_FORMAT": "Web Testing pre-segmentation: unrecognized campaignVariation \"{operand}\". Expected: \"C\", \"C_V\", \"C_!V\", or \"!C\"; use an underscore before ! (e.g. 122_!1), not a colon.",
+  "INVALID_WEB_TESTING_CAMPAIGNS_JSON": "Web Testing pre-segmentation: platformVariables.webTestingCampaigns must be JSON that parses to a plain object (campaign id → variation id), not an array or primitive.",
   "INVALID_WEB_TESTING_CAMPAIGNS_TYPE": "Web Testing pre-segmentation: platformVariables.webTestingCampaigns must be a plain object or a JSON string of an object (campaign id → variation id). Received type: {kind}.",
-  "INVALID_WEB_TESTING_CAMPAIGN_VARIATION_OPERAND_TYPE": "Web Testing pre-segmentation: campaignVariation must be a string (e.g. \"122\", \"122_2\"). Received type: {type}.",
+  "INVALID_WEB_TESTING_CAMPAIGN_VARIATION_OPERAND_TYPE": "Web Testing pre-segmentation: campaignVariation must be a string (e.g. \"122\", \"122_2\", \"122_!1\", \"!122\"). Received type: {type}.",
 
   "ERROR_FETCHING_DATA_FROM_GATEWAY": "Failed to fetch data from gateway. Error: {err}",
 
