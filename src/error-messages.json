@@ -1,18 +1,18 @@
 {
-  "INIT_OPTIONS_ERROR": "[ERROR]: VWO-SDK {date} Options should be of type object",
-  "INIT_OPTIONS_SDK_KEY_ERROR": "[ERROR]: VWO-SDK {date} Please provide the sdkKey in the options and should be a of type string",
-  "INIT_OPTIONS_ACCOUNT_ID_ERROR": "[ERROR]: VWO-SDK {date} Please provide VWO account ID in the options and should be a of type string|number",
+  "INIT_OPTIONS_ERROR": "[ERROR]: {logPrefix} {date} Options should be of type object",
+  "INIT_OPTIONS_SDK_KEY_ERROR": "[ERROR]: {logPrefix} {date} Please provide the sdkKey in the options and should be a of type string",
+  "INIT_OPTIONS_ACCOUNT_ID_ERROR": "[ERROR]: {logPrefix} {date} Please provide {brand} account ID in the options and should be a of type string|number",
 
   "INIT_OPTIONS_INVALID": "Invalid key:{key} passed in options. Should be of type:{correctType} and greater than equal to 1000",
 
   "SETTINGS_FETCH_ERROR": "Settings could not be fetched. Error:{err}",
   "SETTINGS_SCHEMA_INVALID": "Settings are not valid. Failed schema validation",
 
-  "POLLING_FETCH_SETTINGS_FAILED": "Error while fetching VWO settings with polling",
+  "POLLING_FETCH_SETTINGS_FAILED": "Error while fetching {brand} settings with polling",
 
   "API_THROW_ERROR": "API - {apiName} failed to execute. Trace:{err}",
   "API_INVALID_PARAM": "Key:{key} passed to API:{apiName} is not of valid type. Got type:{type}, should be:{correctType}",
-  "API_SETTING_INVALID": "Settings are not valid. Contact VWO Support",
+  "API_SETTING_INVALID": "Settings are not valid. Contact {brand} Support",
   "API_CONTEXT_INVALID": "Context should be an object and must contain a mandatory key - id, which is User ID",
 
   "FEATURE_NOT_FOUND": "Feature not found for the key:{featureKey}",
@@ -21,17 +21,17 @@
   "STORED_DATA_ERROR": "Error in getting data from storage. Error:{err}",
   "STORING_DATA_ERROR": "Key:{featureKey} is not valid. Not able to store data into storage",
 
-  "GATEWAY_URL_ERROR": "Please provide a valid URL for VWO Gateway Service while initializing the SDK",
+  "GATEWAY_URL_ERROR": "Please provide a valid URL for {brand} Gateway Service while initializing the SDK",
 
   "NETWORK_CALL_FAILED": "Error occurred while sending {method} request. Error:{err}",
-  "SETTINGS_FETCH_FAILED": "Failed to fetch settings and hence VWO client instance couldn't be updated when API: {apiName} got called having isViaWebhook param as {isViaWebhook}. Error: {err}",
+  "SETTINGS_FETCH_FAILED": "Failed to fetch settings and hence {brand} client instance couldn't be updated when API: {apiName} got called having isViaWebhook param as {isViaWebhook}. Error: {err}",
   "NETWORK_CALL_RETRY_ATTEMPT": "Request failed for {endPoint}, Error: {err}. Retrying in {delay} seconds, attempt {attempt} of {maxRetries}",
   "NETWORK_CALL_RETRY_FAILED": "Max retries reached. Request failed for {endPoint}, Error: {err}",
 
   "CONFIG_PARAMETER_INVALID": "{parameter} paased in {api} API is not correct. It should be of type:{type}}",
   "BATCH_QUEUE_EMPTY": "No batch queue present for account:{accountId} when calling flushEvents API. Check batchEvents config in launch API",
-  "RETRY_CONFIG_INVALID": "Retry config is invalid. Please check the VWO developer documentation. Current retry config: {retryConfig}",
+  "RETRY_CONFIG_INVALID": "Retry config is invalid. Please check the {brand} developer documentation. Current retry config: {retryConfig}",
   "SDK_INIT_EVENT_FAILED": "Error occurred while sending SDK init event. Error:{err}",
   "INVALID_NETWORK_RESPONSE_DATA": "Received invalid or empty response data from the network request",
-  "ALIAS_NOT_ENABLED" : "Aliasing is not enabled. Set isAliasingEnabled in init to enable aliasing"
+  "ALIAS_NOT_ENABLED": "Aliasing is not enabled. Set isAliasingEnabled in init to enable aliasing"
 }

@@ -1,15 +1,15 @@
 {
   "API_CALLED": "API - {apiName} called",
-  "SERVICE_INITIALIZED": "VWO {service} initialized while creating an instance of SDK",
+  "SERVICE_INITIALIZED": "{service} initialized while creating an instance of SDK",
 
   "EXPERIMENTS_EVALUATION_WHEN_ROLLOUT_PASSED": "Rollout rule got passed for user {userId}. Hence, evaluating experiments",
   "EXPERIMENTS_EVALUATION_WHEN_NO_ROLLOUT_PRESENT": "No Rollout rules present for the feature. Hence, checking experiment rules",
 
   "USER_BUCKET_TO_VARIATION": "User ID:{userId} for experiment:{campaignKey} having percent traffic:{percentTraffic} got bucket-value:{bucketValue} and hash-value:{hashValue}",
 
-  "IMPRESSION_FOR_TRACK_USER": "Impression built for vwo_variationShown(VWO standard event for tracking user) event haivng Account ID:{accountId}, User ID:{userId}, and experiment ID:{campaignId}",
+  "IMPRESSION_FOR_TRACK_USER": "Impression built for vwo_variationShown({brand} standard event for tracking user) event haivng Account ID:{accountId}, User ID:{userId}, and experiment ID:{campaignId}",
   "IMPRESSION_FOR_TRACK_GOAL": "Impression built for event:{eventName} event having Account ID:{accountId}, and user ID:{userId}",
-  "IMPRESSION_FOR_SYNC_VISITOR_PROP": "Impression built for {eventName}(VWO internal event) event for Account ID:{accountId}, and user ID:{userId}",
+  "IMPRESSION_FOR_SYNC_VISITOR_PROP": "Impression built for {eventName}({brand} internal event) event for Account ID:{accountId}, and user ID:{userId}",
 
   "CONFIG_BATCH_EVENT_LIMIT_EXCEEDED": "Impression event - {endPoint} failed due to exceeding payload size. Parameter eventsPerRequest in batchEvents config in launch API has value:{eventsPerRequest} for account ID:{accountId}. Please read the official documentation for knowing the size limits",
   "EVENT_BATCH_BEFORE_FLUSHING": "Flushing event queue {manually} having {length} events for Account ID:{accountId}. {timer}",
@@ -17,8 +17,8 @@
   "BATCH_QUEUE_EMPTY": "Batch queue is empty, nothing to flush",
   "USING_POLL_INTERVAL_FROM_SETTINGS": "key: pollInterval not found or invalid. Using pollInterval from {source} {pollInterval}",
   "USING_API_WITH_PROCESS": "API: {api} is being used with process: {process}",
-  "WEB_UUID_FOUND": "VWO Web Testing UUID {uuid} identified as the Context ID for API {apiName}",
-  
+  "WEB_UUID_FOUND": "{brand} Web Testing UUID {uuid} identified as the Context ID for API {apiName}",
+
   "HOLDOUT_SEGMENTATION_FAIL": "User ID: {userId} does not qualify segmentation for Holdout: {holdoutGroupName}",
   "HOLDOUT_SHOULD_NOT_EXCLUDE_USER": "User ID: {userId} is not part of Holdout: {holdoutGroupName} for feature: {featureId}",
   "PART_OF_HOLDOUT_IN_MEG": "MEG: User ID:{userId} is part of holdout: {holdoutId} for feature: {featureKey}",
