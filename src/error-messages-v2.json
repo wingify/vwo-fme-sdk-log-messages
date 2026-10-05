@@ -62,5 +62,6 @@
   "BATCHING_NOT_ENABLED": "Batching is not enabled. Pass batchEventData in the SDK configuration while invoking init API",
   "ERROR_INITIALIZING_FETCH": "Failed to initialize the fetch API. Error: {error}",
   "INVALID_NETWORK_TRANSPORT_MODE": "Invalid network transport mode. Expected one of: {validModes}. Received: {networkTransportMode}. Falling back to default mode: {defaultMode}",
-  "SEND_BEACON_ERROR": "Failed to send sendBeacon request to {brand}. Error: {err}"
+  "SEND_BEACON_ERROR": "Failed to send sendBeacon request to {brand}. Error: {err}",
+  "ERROR_REMOVING_STORED_DATA_IN_STORAGE": "Error removing stored data from storage. Error: {err}"
 }
