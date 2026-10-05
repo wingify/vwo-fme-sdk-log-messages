@@ -25,6 +25,7 @@
   "USER_CAMPAIGN_BUCKET_INFO": "User ID:{userId} for experiment:{campaignKey} {status}",
   "WHITELISTING_SKIP": "Whitelisting is not used for {ruleType}:{campaignKey}, hence skipping evaluating whitelisting {variation} for User ID:{userId}",
   "WHITELISTING_STATUS": "User ID:{userId} for {ruleType}:{campaignKey} {status} whitelisting {variationString}",
+  "WHITELISTING_FORCED_OFF": "User ID:{userId} for {ruleType}:{campaignKey} is forced off and excluded from the rule",
   "VARIATION_RANGE_ALLOCATION": "Variation:{variationKey} of experiment:{campaignKey} having weight:{variationWeight} got bucketing range: ({startRange} - {endRange})",
   "IMPACT_ANALYSIS": "Tracking feature:{featureKey} being {status} for Impact Analysis Campaign for the user {userId}",
   "MEG_SKIP_ROLLOUT_EVALUATE_EXPERIMENTS": "No rollout rule found for feature:{featureKey}. Hence, evaluating experiments",
@@ -64,5 +65,6 @@
   "SHUTDOWN_ALREADY_COMPLETED": "Shutdown has already been completed.",
   "SHUTDOWN_COMPLETED_WITH_FLUSH": "Shutdown completed. Pending batch events have been flushed.",
   "SHUTDOWN_COMPLETED_WITHOUT_FLUSH": "Shutdown completed.",
-  "DEFERRED_EXPOSE_ENQUEUED": "Deferred exposeResult: enqueued {count} variationShown impression(s) for feature:{featureKey}"
+  "DEFERRED_EXPOSE_ENQUEUED": "Deferred exposeResult: enqueued {count} variationShown impression(s) for feature:{featureKey}",
+  "USER_CONSENT_DENIED": "User has not consented. Skipping {apiName} for this user."
 }
