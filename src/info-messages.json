@@ -66,5 +66,13 @@
   "SHUTDOWN_COMPLETED_WITH_FLUSH": "Shutdown completed. Pending batch events have been flushed.",
   "SHUTDOWN_COMPLETED_WITHOUT_FLUSH": "Shutdown completed.",
   "DEFERRED_EXPOSE_ENQUEUED": "Deferred exposeResult: enqueued {count} variationShown impression(s) for feature:{featureKey}",
-  "USER_CONSENT_DENIED": "User has not consented. Skipping {apiName} for this user."
+  "USER_CONSENT_DENIED": "User has not consented. Skipping {apiName} for this user.",
+  "MISSING_IP_ADDRESS_FOR_SEGMENTATION": "To evaluate IP segmentation, please provide ipAddress in context",
+  "MISSING_USER_AGENT_FOR_BROWSER_VERSION_SEGMENTATION": "To evaluate browser version segmentation, please provide userAgent in context",
+  "MISSING_USER_AGENT_FOR_OS_VERSION_SEGMENTATION": "To evaluate OS version segmentation, please provide userAgent in context",
+  "STORED_DATA_IN_STORAGE": "Stored data in storage for key: {key}",
+  "RETRIEVED_DATA_FROM_STORAGE": "Retrieved data from storage for key: {key}",
+  "MEG_NO_WINNER_CAMPAIGN": "No winner campaign found for MEG group: {groupId}",
+  "USING_ALREADY_FETCHED_SETTINGS": "Using already fetched and cached settings",
+  "SETTINGS_SNAPSHOT_STALE": "[SETTINGS_SNAPSHOT_STALE] Rejecting stale/duplicate settings snapshot. Incoming: {incomingTimestamp}, Last seen: {lastSeenTimestamp}"
 }

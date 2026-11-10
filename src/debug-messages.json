@@ -23,5 +23,7 @@
   "HOLDOUT_SEGMENTATION_FAIL": "User ID: {userId} does not qualify segmentation for Holdout: {holdoutGroupName}",
   "HOLDOUT_SHOULD_NOT_EXCLUDE_USER": "User ID: {userId} is not part of Holdout: {holdoutGroupName} for feature: {featureId}",
   "PART_OF_HOLDOUT_IN_MEG": "MEG: User ID:{userId} is part of holdout: {holdoutId} for feature: {featureKey}",
-  "HOLDOUT_SKIP_EVALUATION": "Skip holdout reevaluation for holdout ID: {holdoutId} because {reason}"
+  "HOLDOUT_SKIP_EVALUATION": "Skip holdout reevaluation for holdout ID: {holdoutId} because {reason}",
+  "INVALID_TTL_USING_DEFAULT": "TTL is not passed or invalid (less than 1 minute), using default value of 2 hours",
+  "INVALID_ALWAYS_USE_CACHED_SETTINGS": "AlwaysUseCachedSettings is not passed or invalid, using default value of false"
 }
