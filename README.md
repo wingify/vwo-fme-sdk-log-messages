@@ -1,6 +1,6 @@
-## VWO Feature Experimentation SDK Log Messages
+## Wingify Feature Management SDK Log Messages
 
-VWO Feature Experimentation - SDK Log Messages at one place
+Wingify Feature Management - SDK Log Messages at one place
 
 ## Authors
 
