@@ -1,6 +1,6 @@
 {
   "name": "wingify-fme-sdk-log-messages",
-  "version": "2.0.0",
+  "version": "2.5.0",
   "description": "Wingify FME SDK Log Messages at one place",
   "main": "index.js",
   "scripts": {
